@@ -25,3 +25,7 @@ Verify that the version of the binaries match the release tag.
 ```bash
 cascadiad version
 ```
+
+```bash
+docker run -d --name cascadia -v /root/.cascadiad/config:/root/.cascadiad/config -v /data/cascadiad:/root/.cascadiad/data -v /root/.cascadiad/config/keyring:/root/.cascadiad/keyring *imageID* cascadiad start
+```
