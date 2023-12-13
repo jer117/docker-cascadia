@@ -26,4 +26,4 @@ WORKDIR /root/.cascadiad/bin
 
 RUN chmod a+x /usr/bin/cascadiad*
 
-CMD ["/bin/sh"]
+CMD ["/bin/bash"]
