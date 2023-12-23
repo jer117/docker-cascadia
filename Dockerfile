@@ -1,6 +1,6 @@
 FROM golang:1.20-bullseye AS go-builder
 
-ARG VERSION=v0.1.9
+ARG VERSION=v0.2.0
 
 # Set Golang environment variables.
 ENV GOPATH=/go
